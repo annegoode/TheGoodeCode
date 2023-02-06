@@ -1,24 +1,69 @@
-body{
-    margin: 0;
-    text-align: center;
-}
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>The Goode Code</title>
+        <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+        <link rel="icon" type="image/x-icon" href="Images/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 
-h1{
-    margin-top: 0;
-}
+    
+    </head>
+    <body>
+        <div class="top-container">
+            <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+            <h1>I'm Anne</h1>
+            <h2>A Physical Therapist aspiring to become a Programmer</h2>
+            <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+            <img src="images/mountain.png" alt="mountain">
+        </div>
 
-.top-container {
-    background-color: #567189;
-}
+        <div class="middle-container">
+            <div class="profile">
+              <img src="images/profilepicture resized 500px-circlecrop.png" alt="Anne">
+              <h2>Hello.</h2>
+              <p>I am a Physical Therapist aspiring to become a programmer. Currently, I'm working on Web Development and so far, I ❤️ it!.</p>
+            </div>
+            <hr>
+            <div class="skills">
+              <h2>My Skills.</h2>
+              <div class="skill-row">
+                <img class="" src="images/self-learning circle crop.png" alt="self-learning">
+                <h3>Self-taught.</h3>
+                <p>What you see here is made with the use of an online course via Udemy. I'm learning to code by myself. </p>
+              </div>
+              <div class="skill-row">
+                <img class="" src="images/woman energy circle crop.png" alt="sportsy">
+                <h3>Sports and games</h3>
+                <p>My best skills are playing sports and games. I like a good challenge!</p>
+              </div>
+            </div>
+            <hr>
+            <div class="contact-me">
+              <h2>Get In Touch</h2>
+              <h3>If you like to see and follow what I will be able to in the future.</h3>
+              <p>Let's talk!</p>
+              <a class="btn" href="mailto:thegoodecode@gmail.com">Contact Me</a>
+            </div>
+          </div>
+          
+          
+          <div class="bottom-container">
+            <a class="footer-link" a href="http://www.linkedin.com/in/anne-goode">LinkedIn</a>
+            Or visit my
+            <a class="footer-link" a href="https://annegoode.github.io/TheGoodeCode/">Website</a>
+            on Github.
+            <p>© Anne Goode.</p>
+          </div>
+          
 
-.middle-container {
-    background-color: #ff5400 ;
-    height: 200px;
-    width: 200px;
-}
+          images from: <a href="https://www.freepik.com/free-vector/blue-geometric-woman-running-illustration_13381520.htm#query=sport&position=0&from_view=author">Image by macrovector</a> on Freepik
+          and: <a href="https://www.freepik.com/free-vector/online-tutorials-concept_7915189.htm#query=learning&position=12&from_view=search&track=sph">Image by pikisuperstar</a> on Freepik
 
-.bottom-container {
-    background-color: #00b4d8;
-    height: 200px;
-    width: 200px;
-}
+    
+
+    </body>
+</html>
+
