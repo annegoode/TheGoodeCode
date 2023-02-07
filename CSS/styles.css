@@ -17,6 +17,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
+
 }
 
 h3 {
@@ -30,13 +31,21 @@ h3 {
     position: relative;
 }
 
-.middle-container {}
+.middle-container {
+}
 
 .profile {
     margin-top: 50px;
 }
 
 .bottom-container {}
+
+.skill-row{
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+}
 
 
 .top-cloud {
@@ -49,6 +58,19 @@ h3 {
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+
+.self-taught-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.sportsy-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
 }
 
 .footer-link {
