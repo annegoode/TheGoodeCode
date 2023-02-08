@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
@@ -17,12 +17,27 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
-
 }
 
 h3 {
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
+}
+
+
+hr {
+    border-top: 5px dotted #EAF6F6;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    height: 5px;
+    width: 20%;
+    margin: auto;
+}
+
+
+.profile {
+    margin-top: 50px;
 }
 
 .top-container {
@@ -34,19 +49,22 @@ h3 {
 .middle-container {
 }
 
-.profile {
-    margin-top: 50px;
+.bottom-container {
+    background-color: #567189;
+    font-family: 'Montserrat', sans-serif;
+    color:#EAF6F6;
 }
 
-.bottom-container {}
+.footer-name{
+    color:#EAF6F6;
+}
 
 .skill-row{
     line-height: 2;
-    margin: 100px auto 100px auto;
+    margin: 50px auto 100px auto;
     text-align: left;
     width: 50%;
 }
-
 
 .top-cloud {
     position: absolute;
@@ -64,7 +82,6 @@ h3 {
     width: 25%;
     float: left;
     margin-right: 30px;
-
 }
 
 .sportsy-img{
@@ -75,4 +92,28 @@ h3 {
 
 .footer-link {
     color: #11999E;
+    font-family: 'Montserrat', sans-serif;
 }
+
+.footer-name{
+    color: #EAF6F6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #EAF6F6;
+    font-size: 20px;
+    background: #567189;
+    padding: 10px 20px 10px 20px;
+    border: solid #1f628d 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #567189;
+    text-decoration: none;
+  }
